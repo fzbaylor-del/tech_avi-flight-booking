@@ -1,0 +1,282 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#0f172a;
+}
+.register-container{
+    width:350px;
+    margin:100px auto;
+    padding:40px;
+
+    background:white;
+    border-radius:10px;
+
+    text-align:center;
+}
+h1{
+    margin-bottom:5px;
+}
+
+h2{
+    margin-bottom:30px;
+    color:gray;
+}
+body{
+    margin:0;
+    font-family:Arial;
+    height:100vh;
+
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.register-card{
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(10px);
+
+    padding:40px;
+    width:300px;
+
+    border-radius:10px;
+
+    color:white;
+    text-align:center;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+
+    border:none;
+    border-radius:5px;
+}
+
+button{
+    width:100%;
+    padding:10px;
+
+    background:#3b82f6;
+    color:white;
+
+    border:none;
+    border-radius:5px;
+
+    cursor:pointer;
+}
+
+button:hover{
+    background:#2563eb;
+}
+
+.login-link{
+    margin-top:15px;
+}
+.landing-container{
+
+text-align:center;
+
+color:white;
+
+}
+
+.landing-buttons{
+
+margin-top:20px;
+
+}
+
+.landing-buttons button{
+
+margin:10px;
+
+width:150px;
+
+}
+.flight-search{
+
+background:white;
+
+padding:30px;
+
+border-radius:10px;
+
+display:flex;
+
+gap:15px;
+
+margin-top:20px;
+
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+
+}
+.flight-search input{
+
+padding:10px;
+
+border:1px solid #ddd;
+
+border-radius:5px;
+
+}
+.flight-search button{
+
+background:#3b82f6;
+
+color:white;
+
+border:none;
+
+padding:10px 20px;
+
+border-radius:5px;
+
+cursor:pointer;
+
+}
+/* Dashboard layout */
+
+.dashboard{
+display:flex;
+}
+
+/* Sidebar */
+
+.sidebar{
+width:230px;
+height:100vh;
+background:#0a1f44;
+color:white;
+padding:20px;
+position:fixed;
+left:0;
+top:0;
+}
+
+/* Logo / title */
+
+.sidebar h2{
+margin-bottom:30px;
+}
+
+/* Menu list */
+
+.sidebar ul{
+list-style:none;
+padding:0;
+}
+
+.sidebar ul li{
+margin:18px 0;
+}
+
+/* Menu links */
+
+.sidebar ul li a{
+color:white;
+text-decoration:none;
+font-size:16px;
+transition:0.3s;
+}
+
+.sidebar ul li a:hover{
+color:#4da3ff;
+}
+
+/* Main content */
+
+.main-content{
+margin-left:250px;
+padding:30px;
+}
+.flight-search input{
+padding:12px;
+border:1px solid #ddd;
+border-radius:6px;
+width:180px;
+}
+.sidebar a{
+text-decoration:none;
+color:white;
+}
+
+.sidebar a:hover{
+color:#3b82f6;
+}
+.routes{
+
+display:flex;
+
+gap:20px;
+
+margin-top:20px;
+
+}
+
+.route{
+
+background:white;
+
+padding:15px;
+
+border-radius:8px;
+
+box-shadow:0 4px 8px rgba(0,0,0,0.1);
+
+}
+.airlines{
+
+display:flex;
+
+gap:20px;
+
+margin-top:20px;
+
+}
+
+.airline{
+
+background:white;
+
+padding:15px;
+
+border-radius:8px;
+
+box-shadow:0 4px 8px rgba(0,0,0,0.1);
+
+}
+.dashboard{
+display:flex;
+height:100vh;
+}
+
+.sidebar{
+width:230px;
+background:#020617;
+color:white;
+padding:20px;
+}
+
+.sidebar ul{
+list-style:none;
+padding:0;
+margin-top:20px;
+}
+
+.sidebar li{
+margin:15px 0;
+}
+
+.sidebar a{
+color:white;
+text-decoration:none;
+}
+
+.main-content{
+flex:1;
+padding:40px;
+}
+
